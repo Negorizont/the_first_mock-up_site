@@ -4,19 +4,74 @@
 	<meta charset="UTF-8">
 	<title>Landing page</title>
 	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
 	
-		<div class="nav">
-			<div class="container container__nav">
+	<div class="nav">
+		<div class="container container__nav">
 			<a class="nav__link" href="#">Для мужчин</a>
 			<a class="nav__link" href="#">Для женщин</a>
 			<a class="nav__link" href="#">Для детей</a>
-			<div class="logo"><img src="img/logo.png" alt="Логотип"></div>
+			<div class="logo">
+				<img src="img/logo.png" alt="Логотип">
+			</div>
 			<a class="nav__link" href="#">Оплата</a>
 			<a class="nav__link" href="#">Доставка</a>
-			<a class="nav__link" href="#"><img src="img/basket.png" alt=""></a>
-			<a class="nav__link" href="#"><img src="" alt="img/baskets.png"></a>
+			<div id="basket" class="nav__link">
+				<a href="#"><img src="img/basket.png" alt=""></a>
+				<a href="#"><img src="img/number.png" alt=""></a>
+			</div>
+		</div>
+	</div>
+
+	<div class="slaider">
+		<div class="container container__nav">
+			<div class="sale">
+				<p>Зимняя распродажа</p>
+				<h1>Скидки до 90%</h1>
+				<a class="check_models" href="#">Смотреть модели</a>
+			</div>
+			<img src="img/sale.png" alt="">
+		</div>
+	</div>
+
+	<div class="free_delivery">
+	 	<p class="first_line"><span class="bold_text">бесплатная доставка</span> от 3000₽</p>
+	 	<p class="second_line">Сделайте заказ и получите подарок!</p>	 
+	 </div> 
+
+	<div class="collection">
+		<div class="container container__nav">
+			<div class="collection__portret">
+				<div class="portret__man">
+					<p class="collection__name"><span class="bold_text">мужская</span> коллекция</p>
+					<p class="view">Обувь, полуверы, костюмы</p>
+					<img src="img/button.png" alt="button" width="80px" height="30px">
+				</div>
+				<a href="#"><img class="portret" src="img/man.png" alt="man" width="190px" height="171px"></a>
+			</div>
+			<div class="collection__portret">
+				<div class="portret__woman">
+					<p class="collection__name"><span class="bold_text">женская</span> коллекция</p>
+					<p class="view">Обувь, полуверы, костюмы</p>
+					<img src="img/button.png" alt="button" width="80px" height="30px">
+				</div>
+				<a href="#"><img class="portret" src="img/woman.png" alt="man" width="190px" height="171px"></a>
+			</div>
+		</div>
+	</div>
+
+	<div class="container container__nav">
+		<div class="products">
+			<img src="img/item.png" alt="product">
+			<img src="img/item.png" alt="product">
+			<img src="img/item.png" alt="product">
+			<img src="img/item.png" alt="product">
+			<img src="img/item.png" alt="product">
+			<img src="img/item.png" alt="product">
+			<img src="img/item.png" alt="product">
+			<img src="img/item.png" alt="product">
 		</div>
 	</div>
 </body>
